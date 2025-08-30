@@ -1,0 +1,10 @@
+TAP version 14
+# Subtest: StartupService initializes: versions + scheduler + immediate ping
+    1..4
+    ok 1 - immediate ping runs with forceRefresh: true
+    ok 2 - versions initialized once
+    ok 3 - scheduler started once
+    ok 4 - immediate ping executed once
+ok 1 - StartupService initializes: versions + scheduler + immediate ping # time=18.74ms
+
+1..1
